@@ -7,4 +7,3 @@ print(r.text)
 r = post("https://httpbin.org/post", data={"hello":"world"})
 
 print(r.json())
-print(r.text)
